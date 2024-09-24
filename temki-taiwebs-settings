@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+<script>
+import React from 'react';
+import { Button } from '@figma-ui/core';
+
+const api = 'https://api.figma.com/v1/files/';
+const fileId = '❗❗❗❗❗❗❗ID ВАШЕГО ФИГМА ДОКУМЕНТА❗❗❗❗❗❗❗';
+const token = '❗❗❗❗❗❗❗ВАШ ТОКЕН❗❗❗❗❗❗❗';
+
+function App() {
+  return (
+    <div>
+      <Button variant="primary">Кнопка</Button>
+    </div>
+  );
+}
+
+fetch(`${api}${fileId}?access_token=${token}`)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+</script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@temki_honeyhoneypie | Телеграм канал с лучшими белыми схемами по заработку в интернете!</title>
+  <style>
+    .fullscreen-iframe {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/deck/hwFGAPX07AwglWphSoRs5X/.ppt-%40temki_honeyhoneypie-%7C-%D0%A2%D0%93-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-%D1%81-%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%BC%D0%B8-%D0%B1%D0%B5%D0%BB%D1%8B%D0%BC%D0%B8-%D1%81%D1%85%D0%B5%D0%BC%D0%B0%D0%BC%D0%B8-%D0%BF%D0%BE-%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83-%D0%B2-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B5!?node-id=33-2&node-type=slide&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&embed-host=share" allowfullscreen></iframe>
+
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>t.me/temki_honeyhoneypie | Лучшие белые и легальные темки в Интернете! Заработок в Интернете онлайн</title>
+  <meta name="description" content="Лучшие белые и легальные темки в Интернете! Заработок в Интернете онлайн">
+  <meta name="keywords" content="заработок, интернет, онлайн, бизнес, пассивный, доход, фриланс, услуги, продажа, товары, YouTube, TikTok, Instagram, Facebook, блоги, сайты, онлайн курсы, партнерские программы, реклама, контент, удаленная работа, онлайн бизнес идеи, пассивный доход">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/kanonicheskaya-ssylka">
+  <meta property="og:title" content="@temki_honeyhoneypie | Телеграм канал с лучшими белыми схемами по заработку в интернете!">
+  <meta property="og:description" content="@temki_honeyhoneypie | Телеграм канал с лучшими белыми схемами по заработку в интернете!">
+  <meta property="og:image" content="https://example.com/izobrazhenie">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ваш заголовок страницы">
+  <meta name="twitter:description" content="Ваше краткое описание страницы">
+  <meta name="twitter:image" content="https://example.com/izobrazhenie">
+
+</body>
+</html>
+
